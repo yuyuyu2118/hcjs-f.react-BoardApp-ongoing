@@ -1,5 +1,22 @@
-.sidebar-button {
+#root {
   display: flex;
-  margin: 100px;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh;
+  padding: 16px;
+  margin: 0;
+}
+
+.menuItem {
+  font-size: 1.5rem;
+  list-style: none;
   text-align: center;
+  padding: 8px;
+  background: aqua;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.menuItem:hover {
+  background: #fff;
+  color: #000;
 }/*# sourceMappingURL=SideBar.css.map */

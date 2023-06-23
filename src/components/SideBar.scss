@@ -1,6 +1,24 @@
-.sidebar-button{
+#root{
   display: flex;
-  margin: 100px;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh;
+  // background: #30b4c0;
+  // color: #fff;
+  padding: 16px;
+  margin: 0;
+}
+
+.menuItem{
+  font-size: 1.5rem;
+  list-style: none;
   text-align: center;
-  //background-color: red;
+  padding: 8px;
+  background: aqua;
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover{
+    background: #fff;
+    color: #000;
+  }
 }

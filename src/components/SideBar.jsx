@@ -4,10 +4,15 @@ import "./SideBar.css";
 
 const SideBar = () => {
   return (
-    <div>
-      <Button variant="contained" className="sidebar-button" color="primary">
+    <div id="root">
+      {/* <Button variant="contained" className="sidebar-button" color="primary">
         Hello
-      </Button>
+      </Button> */}
+      <ul>
+        <li className="menuItem">メニュー1</li>
+        <li className="menuItem">メニュー2</li>
+        <li className="menuItem">メニュー3</li>
+      </ul>
     </div>
   );
 };
